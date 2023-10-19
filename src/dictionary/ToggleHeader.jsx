@@ -76,7 +76,7 @@ const ToggleHeader = () => {
  </div>
 
  <div className='text-[25px] '>
- <img src={line} alt='logo' className='h-[20px] mt-4 opacity-60' />
+ <img src={line} alt='logo' className='h-[20px] mt-4 opacity-60'  id='line'/>
  </div>
 
  <div className='text-[25px] text-[#A445ED]' >
