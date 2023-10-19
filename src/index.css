@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 1200px) {
   #bg1 {
-    height: 870px;
+    height: 900px;
     width: 100%;
     background-color: black;
   }
@@ -47,6 +47,7 @@
   #right-icons{
     position: absolute;
     right: 2rem;
+    gap: 30px;
   }
 
   #border-bg {
@@ -63,6 +64,13 @@
     width: 150px;
     position: relative;
     bottom: 3rem;
+    left: 3rem;
+    border: none;
+    outline: none;
+  }
+  .audio button{
+    border: none;
+    outline: none;
   }
 
   #definition{
@@ -174,13 +182,10 @@
 
 #search{
  position: sticky;
- margin-left: 9rem;
+ margin-left: 10rem;
+
 }
 
-/* #fontsbox{
- position: relative;
- right: 1000px;
-}  */
 }
 
 
