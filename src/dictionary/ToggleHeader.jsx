@@ -70,8 +70,8 @@ const ToggleHeader = () => {
   onClick={() => setIsHidden(!isHidden)}
     alt='logo'
     src={arrow}
-   className='cursor-pointer'
-  id='arrow'
+    className='cursor-pointer'
+   id='arrow'
    />
  </div>
 

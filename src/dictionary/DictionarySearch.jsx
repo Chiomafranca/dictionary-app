@@ -11,7 +11,6 @@ const Dictionary = ({ darkMode }) => {
   const [audio, setAudio] =useState("")
 
   
-
   const fetchData = () => {
     if (word.trim() !== '') {
       fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`)

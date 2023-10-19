@@ -151,8 +151,9 @@
   }
   #font{
     font-size: 13px;
-    margin-top: 10px;
-    position: relative;
+    margin-top: .80rem;
+    /* margin-top: 10px;
+    position: relative; */
   }
   #toggle1{
     width: 18px;
@@ -172,7 +173,8 @@
 }
 
 #search{
- display: none;
+ position: sticky;
+ margin-left: 9rem;
 }
 
 /* #fontsbox{
