@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#fonts-box {
+  box-shadow:
+    4px 4px 4px rgba(164, 69, 237, 0.2),
+    -4px -4px 4px rgba(164, 69, 237, 0.2),
+    4px -4px 4px rgba(164, 69, 237, 0.2),
+    -4px 4px 4px rgba(164, 69, 237, 0.2),
+    8px 8px 8px rgba(164, 69, 237, 0.15),
+    -8px -8px 8px rgba(164, 69, 237, 0.15),
+    8px -8px 8px rgba(164, 69, 237, 0.15),
+    -8px 8px 8px rgba(164, 69, 237, 0.15),
+    12px 12px 12px rgba(164, 69, 237, 0.1),
+    -12px -12px 12px rgba(164, 69, 237, 0.1),
+    12px -12px 12px rgba(164, 69, 237, 0.1),
+    -12px 12px 12px rgba(164, 69, 237, 0.1);
+    margin-right: 2.10rem;
+    width: 100px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  #bg1 {
+    height: 870px;
+    width: 100%;
+    background-color: black;
+  }
+
+  #word-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #book{
+    position: absolute;
+    left: 2rem;
+  }
+  #right-icons{
+    position: absolute;
+    right: 2rem;
+  }
+
+  #border-bg {
+    width: 100%;
+    position: relative;
+  }
+
+  #border-input input {
+    width: 100%;
+    background-color: transparent; 
+  }
+
+  .audio{
+    width: 150px;
+    position: relative;
+    bottom: 3rem;
+  }
+
+  #definition{
+    width: 100%;
+    position: relative;
+    bottom: 3rem;
+  }
+
+  #definition li{
+    font-size: 13px;
+  }
+
+
+  #verb {
+    width: 300px;
+    position: relative;
+    bottom: 3rem;
+  }
+
+  .meaning{
+    position: relative;
+    bottom: 3rem;
+    font-size: 18px;
+  }
+
+  .meaning ul li{
+    font-size: 13px;
+  }
+
+  .meaning p{
+    font-size: 13px;
+  }
+
+  #noun {
+    width: 300px;
+    position: relative;
+    bottom: 7rem;
+  }
+  #synonyms{
+    position: relative;
+    bottom: 2rem;
+  }
+
+
+  #play{
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  #play button{
+    margin-top: 20px;
+  }
+  #word{
+    font-size: 20px;
+    position: relative;
+    bottom: 2rem;
+  }
+
+  #phonetic{
+    font-size: 15px;
+  }
+
+  .footer{
+    position: relative;
+    bottom: 3rem;
+  }
+
+  #footer-line{
+    width: 400px;
+    position: relative;
+    bottom: .80rem;
+  }
+
+  #urlicon a img{
+    width: 10px;
+  }
+  
+  #urlicon{
+    position: relative;
+    bottom: .1rem;
+  }
+  #fonts-box{
+    font-size: 12px;
+    position: relative;
+    left: 2rem;
+  }
+  #font{
+    font-size: 13px;
+    margin-top: 10px;
+    position: relative;
+  }
+  #toggle1{
+    width: 18px;
+    margin-top: 10px;
+  }
+  #toggle2{
+    width: 20px;
+    margin-top: 10px;
+  }
+ #arrow{
+   width: 10px;
+}
+#moon{
+  width: 20px;
+  margin-top: 2px;
+  margin-top: 10px;
+}
+
+#search{
+ display: none;
+}
+
+/* #fontsbox{
+ position: relative;
+ right: 1000px;
+}  */
+}
+
+
+
+
+
+
+
+
