@@ -26,7 +26,7 @@ const ToggleHeader = () => {
        <img src={book} alt='logo' width={35} className='absolute left-96 top-7' id='book'/>
    </div>
 
-<div className='flex gap-4 absolute right-96 top-5' id='right-icons'>
+<div className='flex gap-7 absolute right-96 top-5' id='right-icons'>
    
    <div className='fontsbox z-50'>
      <p className={`text-[18px] mt-3 ml-10 ${darkMode ? 'text-white' : 'text-black'}`} id='font'>{fonts}</p>
@@ -45,9 +45,9 @@ const ToggleHeader = () => {
              mano
              </p>
            <p
-       className='pb-2 cursor-pointer hover:text-[#A445ED]'
-        onClick={() => setFonts('font-serif')}
-      id='roboto'
+          className='pb-2 cursor-pointer hover:text-[#A445ED]'
+           onClick={() => setFonts('font-serif')}
+          id='roboto'
          >
       serif
    </p>
